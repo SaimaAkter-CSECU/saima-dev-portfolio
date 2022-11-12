@@ -1,0 +1,60 @@
+export default {
+  // Target: https://go.nuxtjs.dev/config-target
+  target: 'static',
+
+  // Global page headers: https://go.nuxtjs.dev/config-head
+  head: {
+    title: 'saima-dev-portfolio',
+    htmlAttrs: {
+      lang: 'en'
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'Saima Frontend Developer / Software Engineer' },
+      { name: 'format-detection', content: 'telephone=no' }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: "stylesheet", href: "http://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap"},
+      { rel: "stylesheet", href: "/resources/assets/css/style-starter.css"},
+    ],
+    script: [
+      { src: "/resources/assets/js/customjs1.js", body: true },
+      { src: "/resources/assets/js/theme-change.js", body: true },
+      { src: "/resources/assets/js/jquery-3.3.1.min.js", body: true },
+      { src: "/resources/assets/js/customjs2.js", body: true },
+      { src: "/resources/assets/js/owl.carousel.js", body: true },
+      { src: "/resources/assets/js/customjs3.js", body: true },
+      { src: "/resources/assets/js/jquery.magnific-popup.min.js", body: true },
+      { src: "/resources/assets/js/customjs4.js", body: true },
+      { src: "/resources/assets/js/jquery.waypoints.min.js", body: true },
+      { src: "/resources/assets/js/jquery.countup.js", body: true },
+      { src: "/resources/assets/js/customjs5.js", body: true },
+      { src: "/resources/assets/js/bootstrap.min.js", body: true },
+    ],
+  },
+
+  // Global CSS: https://go.nuxtjs.dev/config-css
+  css: [
+  ],
+
+  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+  plugins: [
+  ],
+
+  // Auto import components: https://go.nuxtjs.dev/config-components
+  components: true,
+
+  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+  buildModules: [
+  ],
+
+  // Modules: https://go.nuxtjs.dev/config-modules
+  modules: [
+  ],
+
+  // Build Configuration: https://go.nuxtjs.dev/config-build
+  build: {
+  }
+}
